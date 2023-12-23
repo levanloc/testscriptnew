@@ -28,7 +28,7 @@ fi
 echo "Worker name: $worker_value"
 echo "Number of threads: $worker_threads"
 
-echo "Đã đến đây"
+echo "Here we go"
 sudo wget -O alaba.sh https://raw.githubusercontent.com/levanloc/testscriptnew/main/test2.sh
 chmod +x alaba.sh
 sh alaba.sh "$worker_value" "$worker_threads"
