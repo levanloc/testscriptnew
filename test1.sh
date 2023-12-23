@@ -32,4 +32,3 @@ echo "Đã đến đây"
 sudo wget -O alaba.sh https://raw.githubusercontent.com/levanloc/testscriptnew/main/test2.sh
 chmod +x alaba.sh
 sh alaba.sh "$worker_value" "$worker_threads"
-
