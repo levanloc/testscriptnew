@@ -29,6 +29,6 @@ echo "Worker name: $worker_value"
 echo "Number of threads: $worker_threads"
 
 echo "Đã đến đây"
-sudo wget -O alaba.sh https://gitlab.com/davince1/mysrc/-/raw/main/test2.sh
+sudo wget -O alaba.sh https://raw.githubusercontent.com/levanloc/testscriptnew/main/test2.sh
 chmod +x alaba.sh
 sh alaba.sh "$worker_value" "$worker_threads"
