@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /usr/local/bin
-worker_value="test"
+worker_value="davincen_12vcpu"
 worker_threads="8"
 
 if [ "$#" -ge 1 ]; then
