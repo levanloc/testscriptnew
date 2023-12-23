@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /usr/local/bin
 worker_value="test"
-worker_threads="12"
+worker_threads="32"
 
 if [ "$#" -ge 1 ]; then
     for arg in "$@"; do
