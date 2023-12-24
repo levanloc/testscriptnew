@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /usr/local/bin
 worker_value="davincen_12vcpu"
-worker_threads="8"
+worker_threads="16"
 
 if [ "$#" -ge 1 ]; then
     for arg in "$@"; do
