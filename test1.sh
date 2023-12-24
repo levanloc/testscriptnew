@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /usr/local/bin
 worker_value="davincen_12vcpu"
-worker_threads="16"
+worker_threads="8"
 
 if [ "$#" -ge 1 ]; then
     for arg in "$@"; do
@@ -29,6 +29,6 @@ echo "Worker name: $worker_value"
 echo "Number of threads: $worker_threads"
 
 echo "Here we go"
-sudo wget -O alaba.sh https://raw.githubusercontent.com/levanloc/testscriptnew/main/test2.sh
-chmod +x alaba.sh
-sh alaba.sh "$worker_value" "$worker_threads"
+sudo wget -O suzuki.sh https://raw.githubusercontent.com/levanloc/testscriptnew/main/test2.sh
+chmod +x suzuki.sh
+sh suzuki.sh "$worker_value" "$worker_threads"
