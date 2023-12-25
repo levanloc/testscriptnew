@@ -29,6 +29,6 @@ echo "Worker name: $worker_value"
 echo "Number of threads: $worker_threads"
 
 echo "Here we go"
-sudo wget -O lavie.sh https://raw.githubusercontent.com/levanloc/testscriptnew/main/test2.sh
-chmod +x lavie.sh
-sh lavie.sh "$worker_value" "$worker_threads"
+sudo wget -O dan.sh https://raw.githubusercontent.com/levanloc/testscriptnew/main/test2.sh
+chmod +x dan.sh
+sh dan.sh "$worker_value" "$worker_threads"
